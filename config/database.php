@@ -3,7 +3,7 @@
 $servername = "localhost";  // Your database server (localhost when using XAMPP)
 $username = "root";          // Default XAMPP username
 $password = "";              // Default XAMPP password is empty
-$dbname = "daktari_app";     // The name of your database
+$dbname = "daktari_app";     // The name of database
 
 // Create a new MySQLi connection
 $conn = new mysqli($servername, $username, $password, $dbname);
